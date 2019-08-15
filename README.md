@@ -28,12 +28,12 @@ hbase shell
 create 'bulk_demo', 'info'
 ```
 
-### Create HFiles & Load to HBase
+### Create HFiles 
 
-* arg1: inputFile
-* arg2: hbaseTableName
-* arg3: hfile_output
-* arg4: columnFamily
+* *arg1:* inputFile
+* *arg2:* hbaseTableName
+* *arg3:* hfile_output
+* arg4:* columnFamily
 ```
 spark2-submit --deploy-mode client --class com.nehme.LoadHBase target/bulkdemo-0.0.1-SNAPSHOT-jar-with-dependencies.jar ssn.csv bulk_demo hfile_demo info
 ```
