@@ -11,6 +11,7 @@ pip install faker
 ```
 
 src/resources/doc.txt
+
 src/resources/generate_data.py
 
 
