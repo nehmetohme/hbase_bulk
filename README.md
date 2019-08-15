@@ -6,13 +6,13 @@ mvn clean package
 
 ### Generate Random Data
 
+[Python Faker](https://github.com/joke2k/faker)
 ```
 pip install faker
 ```
 
-src/resources/doc.txt
-
-src/resources/generate_data.py
+* src/resources/doc.txt
+* src/resources/generate_data.py
 
 
 ### Upload Sample Data
